@@ -1,0 +1,228 @@
+body {
+    min-width: 302px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #898377;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+header .navbar-light {
+    background-color: rgba(102, 102, 102, 0.644);
+}
+
+header .navbar-brand {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header .nav-item {
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+header .nav-item a::after,
+.nav-link a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    transform: scale(0);
+    background-color: rgb(0, 0, 0);
+}
+
+header .nav-item a:hover::after,
+.nav-link a:hover::after {
+    transform: scale(1);
+}
+
+.container-1 {
+    margin-bottom: 5%;
+}
+
+.container-slider {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1062px;
+    max-height: 501px;
+}
+
+.img-slider {
+    text-align: center;
+}
+
+.post-category,
+.link-more {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: 14px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.footer-bottom {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+    display: flex;
+}
+
+.footer-2 {
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.link-more {
+    font-size: 12px;
+}
+
+.post-category {
+    color: #898377;
+}
+
+.img-scl {
+    display: flex;
+    max-width: 523px;
+    max-height: 351px;
+}
+
+.grid-posts .card {
+    margin-left: 15%;
+    border: 0;
+    margin-bottom: 100px;
+}
+
+.grid-posts {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.grid-posts .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.grid-posts .card-img-top {
+    max-height: 350px;
+    border-radius: 0;
+}
+
+.load-more span {
+    display: none;
+}
+
+.col-text-cente {
+    margin-top: 50px;
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.load-more {
+    margin-top: 50px;
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.signup {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+
+.signup h3 {
+    color: #333;
+}
+
+.signup form {
+    margin-top: 70px;
+}
+
+.signup .form-input {
+    position: relative;
+}
+
+.signup .form-control {
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.signup .form-control:focus {
+    box-shadow: none;
+}
+
+.form-input .btn {
+    position: absolute;
+    right: 0;
+    top: 65%;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    color: #000;
+}
+
+.footer-left a {
+    color: #000;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-right a {
+    color: #000;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 767px) {
+    .grid-posts {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .grid-posts .card {
+        margin-bottom: 50px;
+    }
+    .grid-posts .card-img-top {
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .grid-posts .card-img-top {
+        max-height: 220px;
+    }
+    header .nav-item {
+        margin-left: 0;
+    }
+}
